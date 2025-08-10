@@ -20,4 +20,19 @@ python oxz.py decompress <file in> <file out> 8gramm
 
 <img src="https://github.com/oditynet/oxz/blob/main/result.png" title="example" width="800" />
 
+Примеры:
+```
+python oxz.py compress /tmp/1/ubxtool  /tmp/bitx_launcher.oxz 8gramm
+Сжатие завершено. Коэффициент: 29.09%
+ odity@viva  ~/bin/oxz  python oxz.py compress /tmp/1/uuidgen  /tmp/bitx_launcher.oxz 8gramm
+Сжатие завершено. Коэффициент: 53.64%
+ odity@viva  ~/bin/oxz  python oxz.py compress /tmp/1/tracepath  /tmp/bitx_launcher.oxz 8gramm 
+Сжатие завершено. Коэффициент: 25.04%
+ odity@viva  ~/bin/oxz  python oxz.py compress /tmp/1/setfattr  /tmp/bitx_launcher.oxz 8gramm
+Сжатие завершено. Коэффициент: 39.13%
+python oxz.py compress /usr/bin/ls  /tmp/bitx_launcher.oxz 8gramm 
+Сжатие завершено. Коэффициент: -7.78%
+```
+
+
 TODO: 1) Скорость сжатия. Это слезы. до 100kb еще жить можно.
