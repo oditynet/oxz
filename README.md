@@ -20,6 +20,10 @@ python oxz.py decompress <file in> <file out> 8gramm
 
 <img src="https://github.com/oditynet/oxz/blob/main/result.png" title="example" width="800" />
 
+И добавил поддержку мультиархива. Переобучу систему на сжатие фото и других форматов,а то хорошо сжимает только elf
+
+<img src="https://github.com/oditynet/oxz/blob/main/result1.png" title="example" width="800" />
+
 Примеры:
 ```
 python oxz.py compress /tmp/1/ubxtool  /tmp/bitx_launcher.oxz 8gramm
