@@ -37,4 +37,4 @@ python oxz.py compress /usr/bin/ls  /tmp/bitx_launcher.oxz 8gramm
 ```
 
 
-TODO: 1) Скорость сжатия. Это слезы. до 100kb еще жить можно.
+TODO: 1) Скорость сжатия. Это слезы. до 100kb еще жить можно (В oxz2 решил проблему).
